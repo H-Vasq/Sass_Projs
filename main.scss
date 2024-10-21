@@ -6,5 +6,5 @@
 //     background: $primary-color;
 // }
 
-@import "./sass/common/starter.scss";
-@import "./sass/layouts/row.scss";
+@use "./sass/common/starter.scss";
+@use "./sass/layouts/row.scss";

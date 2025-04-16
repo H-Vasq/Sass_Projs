@@ -86,11 +86,11 @@ body {
 
 @keyframes moveInLeft {
     0% {
-        transform: translateX(-100%) rotate(-50deg);
+        transform: translateX(-100%) rotate(0deg);
     }
 
     60% {
-        transform: rotate(120deg);
+        transform: rotate(180deg);
     }
 
     80% {

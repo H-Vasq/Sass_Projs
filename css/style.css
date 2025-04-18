@@ -7,11 +7,12 @@ Dark green: #28b485
 
 */
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
 
 body {
     font-family: "Lato", sans-serif;
@@ -75,10 +76,6 @@ body {
     animation-name: moveInLeft;
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
-
-    /* animation-iteration-count: 3; */
-    /* animation-delay: 3s; */
-
 }
 
 .heading-primary-sub {
@@ -127,9 +124,9 @@ body {
 .btn:visited {
     text-transform: uppercase;
     text-decoration: none;
-    padding: 15px 40px;
+    padding: 1.5rem 4rem;
     display: inline-block;
-    border-radius: 100px;
+    border-radius: 10rem;
     transition: all .2s;
     position: relative;
 }
@@ -146,23 +143,27 @@ body {
 
 .btn-white {
     background-color: #fff;
-    counter-reset: #777;
+    color: #777;
 }
 
 .btn::after {
     content: "";
     display: inline-block;
-    width: 100%;
     height: 100%;
+    width: 100%;
     border-radius: 100px;
-    padding: absolute;
+    position: absolute;
     top: 0;
     left: 0;
     z-index: -1;
-    /* background-color: #28b485;
-    transition: all .2s; */
+    transition: all .4s;
 }
 
-.btn-white:hover::after {
+.btn-white::after {
     background-color: #fff;
+}
+
+.btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
 }

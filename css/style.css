@@ -122,7 +122,7 @@ body {
 
 @keyframes moveInBottom {
     0% {
-        transform: translateX(100%);
+        transform: translateY(38px);
         opacity: 0;
     }
 
@@ -178,4 +178,9 @@ body {
 .btn:hover::after {
     transform: scaleX(1.4) scaleY(1.6);
     opacity: 0;
+}
+
+.btn-animated {
+    animation: moveInBottom .5s ease-out .75s;
+    animation-fill-mode: backwards;
 }

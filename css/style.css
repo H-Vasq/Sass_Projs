@@ -131,6 +131,7 @@ body {
     display: inline-block;
     border-radius: 100px;
     transition: all .2s;
+    position: relative;
 }
 
 .btn:hover {
@@ -154,6 +155,10 @@ body {
     width: 100%;
     height: 100%;
     border-radius: 100px;
+    padding: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
     /* background-color: #28b485;
     transition: all .2s; */
 }

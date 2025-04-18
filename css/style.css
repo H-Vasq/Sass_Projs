@@ -147,3 +147,17 @@ body {
     background-color: #fff;
     counter-reset: #777;
 }
+
+.btn::after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+    /* background-color: #28b485;
+    transition: all .2s; */
+}
+
+.btn-white:hover::after {
+    background-color: #fff;
+}

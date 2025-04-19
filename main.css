@@ -71,7 +71,6 @@ body {
   backface-visibility: hidden;
   margin-bottom: 60px;
 }
-
 .heading-primary--main {
   display: block;
   font-size: 60px;
@@ -81,7 +80,6 @@ body {
   animation-duration: 1s;
   animation-timing-function: ease-in-out;
 }
-
 .heading-primary--sub {
   display: block;
   font-size: 20px;

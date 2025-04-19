@@ -19,6 +19,7 @@ body {
   color: rgb(220, 152, 25);
 }
 
+<<<<<<< HEAD
 *,
 *::after,
 *::before {
@@ -182,4 +183,6 @@ body {
   animation-fill-mode: backwards;
 }
 
+=======
+>>>>>>> 7c59864 (update)
 /*# sourceMappingURL=style.map */

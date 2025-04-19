@@ -19,7 +19,6 @@ body {
   color: rgb(220, 152, 25);
 }
 
-<<<<<<< HEAD
 *,
 *::after,
 *::before {
@@ -69,7 +68,7 @@ body {
 }
 
 .heading-primary {
-  color: white;
+  color: #fff;
   text-transform: uppercase;
   backface-visibility: hidden;
   margin-bottom: 60px;
@@ -183,6 +182,4 @@ body {
   animation-fill-mode: backwards;
 }
 
-=======
->>>>>>> 7c59864 (update)
 /*# sourceMappingURL=style.map */

@@ -113,6 +113,9 @@ body {
   margin-bottom: 20px;
   display: inline-block;
   background-image: linear-gradient(to right, #7ed56f, #28b485);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
 .btn:link, .btn:visited {
@@ -162,7 +165,7 @@ body {
 
 .header {
   height: 95vh;
-  background-image: linear-gradient(to right bottom, #7ed56f, rgba(40, 180, 133, 0.8)), url(../img/hero.jpg);
+  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/hero.jpg);
   background-size: cover;
   background-position: top;
   position: relative;

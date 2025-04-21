@@ -1,5 +1,3 @@
-@forward './mixins';
-
 @mixin clearfix() {
   &::after {
     content: '';

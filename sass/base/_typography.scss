@@ -46,6 +46,12 @@ body {
     background-image: linear-gradient(
         to right, 
         rgba($color-primary-light, 1),
-        rgba($color-primary-dark, 1)
-    );
+        rgba($color-primary-dark, 1));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+    &:hover {
+        transform: ;
+    }
 }

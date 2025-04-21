@@ -45,7 +45,7 @@ body {
     display: inline-block;
     background-image: linear-gradient(
         to right, 
-        rgba($color-primary-light),
-        rgba($color-primary-dark)
+        rgba($color-primary-light, 1),
+        rgba($color-primary-dark, 1)
     );
 }

@@ -34,7 +34,6 @@ body {
 .row .col-1-of-2 {
   float: left;
   width: calc((100% - 3rem) / 2);
-  background-color: #eee;
   padding: 0.5rem;
   min-height: 0.2rem;
 }

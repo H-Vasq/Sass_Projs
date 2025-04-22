@@ -1,6 +1,9 @@
 @use "./sass/common/starter.scss";
 @use "./sass/layouts/row.scss";
 
+
+@use "./sass/layouts/grid";
+
 @use "./sass/abstracts" as *;
 
 @use "./sass/base/base";

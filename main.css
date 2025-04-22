@@ -19,6 +19,40 @@ body {
   color: rgb(220, 152, 25);
 }
 
+.row {
+  max-width: 114rem;
+  margin: 0 auto;
+}
+.row:not(:last-child) {
+  margin-bottom: 8rem;
+}
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row .col-1-of-2 {
+  float: left;
+  width: calc((100% - 3rem) / 2);
+}
+.row .col-1-of-2:not(:last-child) {
+  margin-right: 3rem;
+}
+.row .col-1-of-3 {
+  float: left;
+  width: calc((100% - 2 * 3rem) / 3);
+}
+.row .col-1-of-3:not(:last-child) {
+  margin-right: 3rem;
+}
+.row .col-2-of-3 {
+  float: left;
+  width: calc(2 * (100% - 2 * 3rem) / 3 + 3rem);
+}
+.row .col-2-of-3:not(:last-child) {
+  margin-right: 3rem;
+}
+
 *,
 *::after,
 *::before {

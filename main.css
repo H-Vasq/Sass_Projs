@@ -364,6 +364,9 @@ body {
   background-size: cover;
   transform: skewY(-7deg);
 }
+.section-features > * {
+  transform: skewY(7deg);
+}
 
 .logo:hover {
   animation: moveInRight 1s ease-out;

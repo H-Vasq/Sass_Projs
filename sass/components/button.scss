@@ -1,4 +1,6 @@
+@use "sass:color";
 @use "../abstracts" as *;
+
 
 .btn {
     $shadow-dark: rgba($color-black, .2);
@@ -39,7 +41,7 @@
         }
 
         &:hover {
-            color: darken($color-grey-dark, 10%);
+            color: color.adjust($color-grey-dark, $lightness: -10%);
         }
     }
 

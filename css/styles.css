@@ -272,6 +272,11 @@ body {
   transform: translateY(0);
 }
 
+.card {
+  background-color: orangered;
+  height: 50rem;
+}
+
 .composition {
   position: relative;
 }
@@ -370,7 +375,7 @@ body {
 
 .section-tours {
   background-color: #f7f7f7;
-  padding: 25rem 0;
+  padding: 25rem 0 50rem 0;
 }
 
 .logo:hover {

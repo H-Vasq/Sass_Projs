@@ -275,6 +275,7 @@ body {
 .card {
   perspective: 150rem;
   -moz-perspective: 150rem;
+  position: relative;
 }
 .card__side {
   background-color: orangered;
@@ -282,6 +283,11 @@ body {
   font-size: 2rem;
   height: 50rem;
   transition: all 0.8s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  backface-visibility: hidden;
 }
 .card__side--front {
   background-color: orangered;

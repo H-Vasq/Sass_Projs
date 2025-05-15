@@ -40,9 +40,22 @@
             background-color: $color-white;
         }
 
-        &:hover {
-            color: color.adjust($color-grey-dark, $lightness: -10%);
+        // &:hover {
+        //     color: color.adjust($color-grey-dark, $lightness: -10%);
+        // }
+    }
+
+    &--green {
+        background-color: $color-primary;
+        color: $color-white;
+
+        &::after {
+            background-color: $color-primary;
         }
+
+        // &:hover {
+        //     color: color.adjust($color-grey-dark, $lightness: -10%);
+        // }
     }
 
     &::after {

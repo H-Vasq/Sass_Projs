@@ -510,6 +510,11 @@ body {
   margin-top: -10rem;
 }
 
+.section-stories {
+  padding: 15rem 0;
+  background-color: #f7f7f7;
+}
+
 .logo:hover {
   animation: moveInRight 1s ease-out;
 }/*# sourceMappingURL=main.css.map */

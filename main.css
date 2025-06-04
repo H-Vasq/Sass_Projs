@@ -491,15 +491,17 @@ body {
   clip-path: circle(50% at 50% 50%);
   transform: translateX(-3rem) skewX(12deg);
   position: relative;
+  overflow: hidden;
 }
 .story__img {
   width: 100%;
   height: 100%;
-  transform: translateX(-4rem);
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 50%;
   box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+  transition: transform 0.5s, filter 0.5s;
+  display: block;
 }
 .story__text {
   transform: skewX(12deg);
@@ -520,6 +522,10 @@ body {
 .story:hover .story__caption {
   opacity: 1;
   transform: translate(-50%, -50%);
+}
+.story:hover .story__img {
+  transform: scale(0.9);
+  filter: blur(3px) brightness(80%);
 }
 
 .header {

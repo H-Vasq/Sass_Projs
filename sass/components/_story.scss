@@ -44,6 +44,7 @@
         // clip-path: circle(50% at 50% 50%);
         transition: transform 0.5s, filter 0.5s;
         display: block;
+        backface-visibility: hidden;
     }
 
     &__text {

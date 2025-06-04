@@ -502,6 +502,7 @@ body {
   box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
   transition: transform 0.5s, filter 0.5s;
   display: block;
+  backface-visibility: hidden;
 }
 .story__text {
   transform: skewX(12deg);

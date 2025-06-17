@@ -218,6 +218,12 @@ body {
   z-index: -1;
   opacity: 0.15;
 }
+.bg-video__content {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 
 .btn:link, .btn:visited {
   text-transform: uppercase;

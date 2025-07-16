@@ -1,9 +1,9 @@
 /* Error: Undefined variable.
  *    ,
- * 11 |         background-color: rgba($color-white, .5);
+ * 12 |         background-color: rgba($color-white, .5);
  *    |                                ^^^^^^^^^^^^
  *    '
- *   sass/components/_form.scss 11:32  @use
+ *   sass/components/_form.scss 12:32  @use
  *   main.scss 19:1                    root stylesheet */
 
 body::before {
@@ -14,5 +14,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a    \2577 \a 11 \2502          background-color: rgba($color-white, .5);\a    \2502                                 ^^^^^^^^^^^^\a    \2575 \a   sass/components/_form.scss 11:32  @use\a   main.scss 19:1                    root stylesheet";
+  content: "Error: Undefined variable.\a    \2577 \a 12 \2502          background-color: rgba($color-white, .5);\a    \2502                                 ^^^^^^^^^^^^\a    \2575 \a   sass/components/_form.scss 12:32  @use\a   main.scss 19:1                    root stylesheet";
 }

@@ -477,6 +477,12 @@ body {
   transform: translateY(-1.5rem) scale(1.05);
 }
 
+.form__input {
+  font-size: 1.5rem;
+  padding: 1.5rem 2rem;
+  border-radius: 2px;
+  background-color: rgba;
+}
 .story {
   display: flex;
   align-items: center;
